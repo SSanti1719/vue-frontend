@@ -16,13 +16,14 @@ const logout = () => {
                 </a>
             </div>
             <div class="hidden lg:flex lg:gap-x-12">
-                <a href="./" class="text-sm font-semibold leading-6 text-gray-900">Emails</a>
-                <a href="./" class="text-sm font-semibold leading-6 text-gray-900">Users</a>
+                <a href="./" class="text-sm font-semibold leading-6 text-gray-900 lg:dark:hover:text-blue-700">Emails</a>
+                <a href="./" class="text-sm font-semibold leading-6 text-gray-900 lg:dark:hover:text-blue-700">Users</a>
+               
             </div>
 
             
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a @click="logout" href="#" class="text-sm font-semibold leading-6 text-gray-900">Logout <span
+                <a @click="logout" href="#" class="text-sm font-semibold leading-6 text-gray-900 lg:dark:hover:text-blue-700" >Logout <span
                         aria-hidden="true">&rarr;</span></a>
             </div>
         </nav>
